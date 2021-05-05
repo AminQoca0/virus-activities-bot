@@ -1,6 +1,7 @@
 # Görseller:
 <img src="https://cdn.discordapp.com/attachments/834125662565564426/839614986153623562/unknown.png">
 <img src="https://cdn.discordapp.com/attachments/834125662565564426/839615013047762954/unknown.png">
+
 # Gerekli Ayarlar
 `botConfig.js` dosyasına gelerek botun bilgilerini ayarlıyoruz.
 Örnek;
