@@ -36,8 +36,7 @@ max_uses: 0,
 target_application_id: activity.id,
 target_type: 2,
 temporary: false,
-validate: null
-}),
+validate: null}),
 headers: {
 "Authorization": `Bot ${client.token}`,
 "Content-Type": "application/json"}})
@@ -49,9 +48,5 @@ message.channel.send(`
 🔔 Aşağıdaki bağlantıyı kullanarak **partiyi başlatabilirsin**
 
 Bağlantı Linki: <https://discord.gg/${invite.code}>
-`);})
-.catch(e => {
-message.channel.send(`🐤 Beklenmeyen bir hata oluştu`);
-})}});
+`);}).catch(e => {message.channel.send(`🐤 Beklenmeyen bir hata oluştu`);})}});
 client.login(cfg.token);
-
